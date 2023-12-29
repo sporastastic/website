@@ -1,21 +1,161 @@
-div{
-  margin: 5px;
-  padding: 10px;
+/*This is where general properties are place*/
+
+
+p{
+  font-family: "Afacad", sans-serif;
+}
+h1{
+  font-family: "Vollkorn", serif;
+  font-size: 50px;
+  text-align: center;
+  font-weight: 300;
+  /*background-image: linear-gradient(to left, var(--solid1), var(--solid2));
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;*/
+  color: black;
+  margin: 10px;
+}
+h2{
+  font-family: "Vollkorn", serif;
+  text-align: center;
+  text-decoration: underline;
+}
+h3{
+  font-family: "Vollkorn", serif;
+  text-align: center;
+}
+table {
+  border: 1px solid;
+  align-items: center;
+}
+td{
+  font-family: "Afacad", sans-serif;
+  border: 1px solid;
+}
+th{
+  font-family: "Vollkorn", serif;
+  border: 1px solid;
+}
+body{
+  margin: 0px;
 }
 
+/*#############################################################################*/
+/*Here is where layout properties are place*/
+.thickPadding{
+  padding-left: 10%;
+  padding-right: 10%;
+}
 .flex-container {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-
+.buttonCenter{
+  position: relative;
+  left: 50%;
+}
+.h1wrapper{
+  border-style: solid;
+  border-width: 10px;
+  border-image: linear-gradient(to left, var(--solid1), var(--solid2)) 1;
+  /*
+  padding: 1rem;
+  background: linear-gradient(to right, red, purple);
+  padding: 3px;
+  border-width: 4px;
+  border-style: solid;
+  border-image: linear-gradient(to left, var(--solid1), var(--solid2));*/
+}
 .row{
   display: flex;
 }
 .column {
   flex: 50%;
 }
+.galleryRow{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+.galleryColumn{
+  flex: 20%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+.galleryColumn img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
 
+/* Responsive layout - makes a two column-layout instead of four columns
+https://www.w3schools.com/howto/howto_css_image_grid_responsive.asp*/
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+.topnav{
+  background-color: black;
+  color: white;
+  overflow: auto;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  padding: 0%;
+  left: 0px;
+  font-family: "Afacad", sans-serif;
+}
+
+.topnav a{
+  display: block;
+  float: left;
+  color: white;
+  padding: 14px 16px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.active{
+  background-color: var(--accent1);
+}
+
+/*
+.topnav a{
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}*/
+
+/*#############################################################################*/
+/*Here are where specific assets like buttons are placed*/
 .button {
   /*https://www.w3schools.com/howto/howto_css_round_buttons.asp*/
   /*https://www.w3schools.com/css/css3_buttons.asp*/
@@ -59,23 +199,12 @@ div{
   border: 2px solid var(--solid1);
 }
 
-.topnav{
-  background-color: black;
-  color: white;
+.expandDropdown{
+  border-style:dashed;
 }
 
-.topnav a{
-  float: left;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
+.quote {
+  text-decoration: dashed underline overline;
 }
 
 .dotted {border-style: dotted;}
@@ -95,8 +224,14 @@ div{
   align-items: center;
 }
 
+/*#############################################################################*/
+/*These are specific id's*/
 #stats {
   background-color: rgba(255, 255, 255, 0.4);
+}
+
+#samples {
+  align-items: center;
 }
 
 #YurenaiKizunaStory{
@@ -104,6 +239,18 @@ div{
   display: none;
 }
 
+#AkailaGallery{
+  display:none;
+}
+
+#footer{
+  background-color: black;
+  text-align: center;
+  color: white;
+}
+
+/*#############################################################################*/
+/*This is general color scheme*/
 .wood {
   background-color: brown;
   background-image: image(Assets/ann-savchenko-unsplash);
@@ -127,20 +274,77 @@ div{
   --accent1: #ce94bc;
   --accent2: #dbbfdb;
   --accent3: #b6b5d8;
-  background-color: #b59dfa;
   align-content: center;
+  position: relative;
+  background-color: #b59dfa;
+  margin: 0;
+}
+.purpleDesert:after {
+    content : "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url(https://images.unsplash.com/photo-1545243424-0ce743321e11?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    opacity : 0.5;
+    z-index: -1;
 }
 
-.sunset {
+.greenNature {
   --solid1: #b59dfa;
   --solid2: #877bae;
   --accent1: #ce94bc;
   --accent2: #dbbfdb;
   --accent3: #b6b5d8;
-  background-image: url(https://images.unsplash.com/photo-1531604250646-2f0e818c4f06?q=80&w=1970&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
   align-content: center;
+  position: relative;
+  background-color: green;
+  margin: 0;
+}
+.greenNature:after {
+    content : "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url(Assets/nature-background.jpg);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    opacity : 0.5;
+    z-index: -1;
 }
 
-#samples {
-  align-items: center;
+/*
+.purpleDesert:after {
+    content : "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    /*https://unsplash.com/photos/gray-desert-front-of-sunlight-MljwsnGwdOY
+    background-image: url(https://images.unsplash.com/photo-1545243424-0ce743321e11?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #b59dfa;
+    /*width: 100%;
+    height: 100%;
+    opacity : 0.2;
+    z-index: -1;
+}*/
+
+.sunset {
+  --solid1: #e3b6d0;
+  --solid2: #2a5480;
+  --accent1: #495692;
+  --accent2: #8583b7;
+  --accent3: #da8ea3;
+  /*https://unsplash.com/photos/silhouette-of-wheat-during-sunset-H0h_89iFsWs*/
+  background-image: url(https://images.unsplash.com/photo-1531604250646-2f0e818c4f06?q=80&w=1970&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-size: cover;
+  background-repeat: no-repeat;
+  align-content: center;
 }

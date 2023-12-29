@@ -1,20 +1,29 @@
 //Disappear and reappearing section referces the following stack overflow
 //https://stackoverflow.com/questions/41730653/how-to-make-a-div-disappear-then-reappear-onclick
-
-var eacbStory = document.getElementById('YurenaiKizunaStory');
-
-function showDiv() {
-  eacbStory.style.display = "block";
-}
-
-function closeDiv() {
-  eacbStory.style.display = "none";
-}
-
-function showOrHide() {
-  if (eacbStory.style.display === "block") {
-    closeDiv()
+function showOrHide(targetedBlock) {
+  if (targetedBlock.style.display === "block") {
+    closeDiv(targetedBlock)
   } else {
-    showDiv()
+    showDiv(targetedBlock)
   }
+}
+
+function showOrHideFlex(targetedBlock) {
+  if (targetedBlock.style.display === "flex") {
+    closeDiv(targetedBlock)
+  } else {
+    showDivFlex(targetedBlock)
+  }
+}
+
+function showDiv(targetedBlock) {
+  targetedBlock.style.display = "block";
+}
+
+function showDivFlex(targetedBlock) {
+  targetedBlock.style.display = "flex";
+}
+
+function closeDiv(targetedBlock) {
+  targetedBlock.style.display = "none";
 }
