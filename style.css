@@ -138,22 +138,6 @@ https://www.w3schools.com/howto/howto_css_image_grid_responsive.asp*/
   background-color: var(--accent1);
 }
 
-/*
-.topnav a{
-  float: left;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
-}*/
-
 /*#############################################################################*/
 /*Here are where specific assets like buttons are placed*/
 .button {
@@ -241,6 +225,7 @@ https://www.w3schools.com/howto/howto_css_image_grid_responsive.asp*/
 
 #AkailaGallery{
   display:none;
+  border-style: solid;
 }
 
 #footer{
