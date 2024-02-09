@@ -1,46 +1,66 @@
 {
-  "animationSamples":[
-    {"Name": "World of Teyvat CB - Round 1 (Glass Castle)",
-    "link": "https://youtu.be/DM7mYeo1m4I",
-    "linkID": "DM7mYeo1m4I",
-    "Style": "Chorus Battle",
-    "Notes": "None"
-    },
-    {"Name": "Mercurial Solstice CB - Round 1 (Disgrace//Discord)",
-    "link": "https://youtu.be/wZMI-tPPOtY?si=CNs9s53hHkNEQJQ2",
-    "linkID": "wZMI-tPPOtY?si=CNs9s53hHkNEQJQ2",
-    "Style": "Chorus Battle",
-    "Notes": "None"
-    },
-    {"Name": "Mercurial Solstice CB - Round 1 (Disgrace//Discord)",
-    "link": "https://youtu.be/wZMI-tPPOtY?si=CNs9s53hHkNEQJQ2",
-    "linkID": "wZMI-tPPOtY?si=CNs9s53hHkNEQJQ2",
-    "Style": "Chorus Battle",
-    "Notes": "None"
-    },
-    {"Name": "Mercurial Solstice CB - Round 1 (Disgrace//Discord)",
-    "link": "https://youtu.be/wZMI-tPPOtY?si=CNs9s53hHkNEQJQ2",
-    "linkID": "wZMI-tPPOtY?si=CNs9s53hHkNEQJQ2",
-    "Style": "Chorus Battle",
-    "Notes": "None"
-    },
-    {"Name": "Mercurial Solstice CB - Round 1 (Disgrace//Discord)",
-    "link": "https://youtu.be/wZMI-tPPOtY?si=CNs9s53hHkNEQJQ2",
-    "linkID": "wZMI-tPPOtY?si=CNs9s53hHkNEQJQ2",
-    "Style": "Chorus Battle",
-    "Notes": "None"
-    },
-    {"Name": "Mercurial Solstice CB - Round 1 (Disgrace//Discord)",
-    "link": "https://youtu.be/wZMI-tPPOtY?si=CNs9s53hHkNEQJQ2",
-    "linkID": "wZMI-tPPOtY?si=CNs9s53hHkNEQJQ2",
-    "Style": "Chorus Battle",
-    "Notes": "None"
-    },
-  ],
-  "vocalSamples":[
-
-  ],
-  "akailaArt"":[
-    {"file":}
-  ]
+    "animationSamples": [
+        {
+            "Name": "World of Teyvat CB - Round 1 (Glass Castle)",
+            "link": "https://youtu.be/DM7mYeo1m4I",
+            "linkID": "DM7mYeo1m4I",
+            "Style": "Chorus Battle",
+            "Notes": "None"
+        },
+        {
+            "Name": "Mercurial Solstice CB - Round 1 (Disgrace//Discord)",
+            "link": "https://youtu.be/wZMI-tPPOtY?si=CNs9s53hHkNEQJQ2",
+            "linkID": "wZMI-tPPOtY?si=CNs9s53hHkNEQJQ2",
+            "Style": "Chorus Battle",
+            "Notes": "None"
+        },
+        {
+            "Name": "Mercurial Solstice CB - Round 1 (Disgrace//Discord)",
+            "link": "https://youtu.be/wZMI-tPPOtY?si=CNs9s53hHkNEQJQ2",
+            "linkID": "wZMI-tPPOtY?si=CNs9s53hHkNEQJQ2",
+            "Style": "Chorus Battle",
+            "Notes": "None"
+        },
+        {
+            "Name": "Mercurial Solstice CB - Round 1 (Disgrace//Discord)",
+            "link": "https://youtu.be/wZMI-tPPOtY?si=CNs9s53hHkNEQJQ2",
+            "linkID": "wZMI-tPPOtY?si=CNs9s53hHkNEQJQ2",
+            "Style": "Chorus Battle",
+            "Notes": "None"
+        },
+        {
+            "Name": "Mercurial Solstice CB - Round 1 (Disgrace//Discord)",
+            "link": "https://youtu.be/wZMI-tPPOtY?si=CNs9s53hHkNEQJQ2",
+            "linkID": "wZMI-tPPOtY?si=CNs9s53hHkNEQJQ2",
+            "Style": "Chorus Battle",
+            "Notes": "None"
+        },
+        {
+            "Name": "Mercurial Solstice CB - Round 1 (Disgrace//Discord)",
+            "link": "https://youtu.be/wZMI-tPPOtY?si=CNs9s53hHkNEQJQ2",
+            "linkID": "wZMI-tPPOtY?si=CNs9s53hHkNEQJQ2",
+            "Style": "Chorus Battle",
+            "Notes": "None"
+        }
+    ],
+    "CCLAnimSamples": [
+        {
+            "Name": "【MSCB'20-R0】Deja Vu 【Disgrace//Discord】",
+            "link": "https://youtu.be/lg4tBWbls-8",
+            "linkID": "lg4tBWbls-8",
+            "Notes": "Uses Adobe After Effects, particles, and camera movement."
+        },
+        {
+            "Name": "STAY (Korean Cover)【Kura, Ara, Yuna, and Akaila】",
+            "link": "https://youtu.be/jD9ajGeF368?si=D4CHrlJXTg6EW51a",
+            "linkID": "jD9ajGeF368?si=D4CHrlJXTg6EW51a",
+            "Notes": "Uses Adobe After Effects, particles, color codes, waveforms."
+        }
+    ],
+    "akailaArt": [
+        {
+            "file": "Assets/Akaila/AkailaVictorySong.PNG",
+            "credit": "lumi (twitter)"
+        }
+    ]
 }
