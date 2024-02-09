@@ -69,3 +69,4 @@ fetch('projects.json') //this is to get the file
     // I think the button looks cheesy which is why I don't include it
     // document.getElementById('project'+j).innerHTML+="<button class='centered'> <a href='"+link+"' target='_blank'>Find Out More</a></button>";
   }
+};
