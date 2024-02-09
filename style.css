@@ -118,8 +118,12 @@ body{
   padding:0px;
 }
 .youtubeVideo{
-  width: 420px;
-  height: 315px;
+  width: 480px;
+  height: 270px;
+}
+.shortsVideo{
+  width: 160px;
+  height: 320px;
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns
