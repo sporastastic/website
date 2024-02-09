@@ -36,7 +36,7 @@ let link;
 let linkID;
 
 //fetch JSON data https://developer.mozilla.org/en-US/docs/Web/API/Response/json
-fetch('projects.json') //this is to get the file
+fetch('videos.json') //this is to get the file
 .then((response) => response.json())
 .then(function(data){
   let rawData = data;
