@@ -339,6 +339,31 @@ https://www.w3schools.com/howto/howto_css_image_grid_responsive.asp*/
     z-index: -1;
 }
 
+.winterWonderland {
+  --solid1: #def6ff;
+  --solid2: #1896cc;
+  --accent1: #b8edf5;
+  --accent2: #ecd8ed;
+  --accent3: #eddeff;
+  align-content: center;
+  position: relative;
+  background-color: #def6ff;
+  margin: 0;
+}
+.winterWonderland:after {
+    content : "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url(Assets/winter-background.jpg);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    opacity : 0.5;
+    z-index: -1;
+}
+
 /*
 .purpleDesert:after {
     content : "";
