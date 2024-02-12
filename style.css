@@ -47,10 +47,13 @@ body{
   padding-left: 10%;
   padding-right: 10%;
 }
+.elementPadding{
+  padding: 10px;
+}
 .flex-container {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
 }
 .embeddedSpreadsheet{
   width: 100%;
@@ -78,6 +81,7 @@ body{
 .column {
   flex: 50%;
 }
+/*This is for galleries in writing and staff*/
 .galleryRow{
   display: flex;
   flex-wrap: wrap;
@@ -93,6 +97,17 @@ body{
   vertical-align: middle;
   width: 100%;
 }
+.galleryColumn3{
+  flex: 20%;
+  max-width: 33%;
+  padding: 0 4px;
+}
+.galleryColumn3 img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+/*This is for the main character art for the OCs on the writing page*/
 .imageContainer{
   position: relative;
 }
@@ -117,6 +132,7 @@ body{
   height:0;
   padding:0px;
 }
+/*This is for general video embedding*/
 .youtubeVideo{
   width: 480px;
   height: 270px;
