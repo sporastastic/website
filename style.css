@@ -107,6 +107,16 @@ body{
   vertical-align: middle;
   width: 100%;
 }
+.galleryColumn2{
+  flex: 20%;
+  max-width: 50%;
+  padding: 0 4px;
+}
+.galleryColumn2 img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
 /*This is for the main character art for the OCs on the writing page*/
 .imageContainer{
   position: relative;
@@ -474,7 +484,7 @@ input[type=radio] {
   align-content: center;
   position: relative;
   background-color: brown;
-  margin:0;  
+  margin:0;
 }
 
 .wood:after{
